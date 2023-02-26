@@ -1,0 +1,72 @@
+*{margin: 0;}
+
+@font-face {
+    font-family: vanilla;
+    src: url(Vanilla\ Caramel.otf);
+}
+body{
+    font-family: vanilla;
+    height: 100vh;
+    width: 100vw;
+    background: url(IMG/cora.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja{
+    height: 40px;
+    width:300px ;
+    border:3px solid black ;
+    
+    }
+.relleno_caja{
+    animation: loading 2s ;
+    height: 100%;
+    background-color: rgb(205, 92, 92);
+}
+
+    @keyframes loading{
+        0%{
+            width: 0;
+            
+        }
+        100%{
+            width: 180px;
+            
+        }
+    }
+    h1{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    p{
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    a{
+        display: block;
+        width: 80px;
+        font-family: vanilla;
+        font-weight: 700;
+        border-radius: 10px;
+        background-color: rgb(250, 68, 113) ;
+        margin: 200px 100px;
+        padding: 20px 30px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        position: fixed;
+        bottom: -200px;
+        
+        
+    }
+    

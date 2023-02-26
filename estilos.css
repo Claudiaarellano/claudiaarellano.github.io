@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: vanilla;
+    src: url(Vanilla\ Caramel.otf);
+}
+
+.contenedor{
+    background: url(IMG/cora.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    
+    text-align: center;
+}
+
+p{
+    font-family: vanilla;
+    padding: 15%;
+    font-size: 50px;
+}
+
+button{
+    font-family: vanilla;
+    font-size: 20px;
+    top:auto;
+    padding: 1.8em;
+    background-color: rgb(250, 68, 113) ;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+
+}
+
+#noBtn{
+    position: absolute;
+}
+
